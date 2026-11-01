@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10-Sec Math Challenge ⚡</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-card">
+        <!-- Header -->
+        <header class="app-header">
+            <span class="badge">kikisaja No. 128</span>
+            <h1>⚡ 10-SEC MATH CHALLENGE</h1>
+            <p>Jawab soal matematika sebanyak mungkin sebelum waktu habis!</p>
+        </header>
+
+        <!-- Stats Panel (Skor & Timer) -->
+        <div class="stats-panel">
+            <div class="stat-box">
+                <span class="stat-label">Skor</span>
+                <strong id="score-display">0</strong>
+            </div>
+            <div class="stat-box timer" id="timer-box">
+                <span class="stat-label">Sisa Waktu</span>
+                <strong id="time-display">10.0s</strong>
+            </div>
+        </div>
+
+        <!-- Question Box -->
+        <div class="question-container">
+            <span class="question-label">Selesaikan Soal:</span>
+            <div class="math-question" id="question-display">? + ?</div>
+        </div>
+
+        <!-- Form Input Jawaban -->
+        <form id="answer-form" class="answer-form">
+            <input type="number" id="answer-input" placeholder="Jawaban..." autocomplete="off" disabled required>
+            <button type="submit" id="btn-submit" class="btn-submit" disabled>Jawab 🎯</button>
+        </form>
+
+        <!-- Start & Restart Button -->
+        <button type="button" id="btn-start" class="btn-start">🚀 MULAI TANTANGAN</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>a
